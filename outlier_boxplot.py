@@ -11,3 +11,7 @@ def main():
     
     plt.boxplot(base.iloc[:, 3])
     outliers_loan = base[(base.loan > 13400)]
+    
+
+if __name__ == '__main__':
+    main()
