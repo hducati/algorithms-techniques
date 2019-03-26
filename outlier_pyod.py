@@ -9,6 +9,7 @@ def main():
     detector = KNN()
     detector.fit(data.iloc[:, 1:4])
     
+    # detector.labels_ irá retornar 0 caso não tenha outlier e 1 caso tenha
     predict = detector.labels_
     predict_trust = detector.decision_scores_
     print(str(predict))
