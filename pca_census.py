@@ -39,3 +39,7 @@ def main():
         predict_list.append(accuracy)
 
     print(max(predict_list))
+    
+    
+if __name__ == '__main__':
+    main()

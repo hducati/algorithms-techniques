@@ -33,3 +33,7 @@ def main():
     
     accuracy = accuracy_score(classe_teste, predict)
     print(str(accuracy))
+
+
+if __name__ == '__main__':
+    main()
